@@ -12,8 +12,7 @@ public class Main{
       }
       return before;
    }
-   public static void main(String[]args){
-     if ((day1==32)||(day2==32)|| 
+   public static void main(String[]args){ 
       System.out.print(dateIsBefore(2,2,2,2));
    }
 }

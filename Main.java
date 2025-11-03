@@ -10,9 +10,14 @@ public class Main{
          before = true;
          }
       }
+      
       return before;
    }
    public static void main(String[]args){ 
+      System.out.println(dateIsBefore(6,3,9,20)); 
+      System.out.println(dateIsBefore(10,1,2,25)); 
+      System.out.println(dateIsBefore(8,15,8,15)); 
+      System.out.println(dateIsBefore(8,15,8,16)); 
       System.out.print(dateIsBefore(2,2,2,2));
    }
 }
